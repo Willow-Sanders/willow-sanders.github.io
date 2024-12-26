@@ -2,22 +2,52 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <html data-theme="dark">
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.purple.min.css"
+    >
     <title>Willow Sanders - Portfolio</title>
 </head>
 <body>
-    <h1>Willow Sanders - Portfolio</h1>
-        <hr>
-        <h2>Programming Projects</h2>
-            <h3>Project 1</h3>
-                <p>Description</p>
-        <hr>
-        <h2>Non-Programming Projects</h2>
-            <h3>Project 1</h3>
-                <p>Description</p>
-        <hr>
-        <h2>Machine Learning Papers</h2>
-            <h3>Paper 1</h3>
-                <p>Description</p>
-                <p>Citation</p>
+    <nav class="container">
+      <ul>
+        <li><strong>Willow Sanders - Portfolio</strong></li>
+      </ul>
+      <ul>
+        <li><a href="#programmingProjects">Programming Projects</a></li>
+        <li><a href="#otherProjects">Other Projects</a></li>
+        <li><a href="#mlPapers">ML Papers</a></li>
+      </ul>
+    </nav>
+    <hr>
+    <main class="container">
+            <h3 id="programmingProjects">Programming Projects</h3>
+                <article>
+                    <header>Project 1</header>
+                    Body
+                </article>
+                <article>
+                    <header>Project 2</header>
+                    Body
+                </article>
+            <hr>
+            <h3 id="otherProjects">Other Projects</h3>
+                <article>
+                    <header>Project 1</header>
+                    Body
+                </article>
+                <article>
+                    <header>Project 2</header>
+                    Body
+                </article>
+            <hr>
+            <h3 id="mlPapers">Machine Learning Papers</h3>
+                <article>
+                    <header>Paper 1</header>
+                    Body
+                    <footer>Citation</footer>
+                </article>
+    </main>
 </body>
 </html>
