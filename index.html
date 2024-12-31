@@ -31,11 +31,11 @@
         #navbar a {
             text-decoration: none;
         }
-        #softwareProjects:before, #otherProjects:before, #mlPapers:before {
+        #software:before, #projects:before, #mlPapers:before {
             content:"";
             display:block;
-            height: 250px;
-            margin: -250px 0 0;
+            height: 120px;
+            margin: -120px 0 0;
         }
     </style>
     <title>Willow Sanders - Portfolio</title>
@@ -47,9 +47,9 @@
         <nav>
           <ul></ul>
           <ul>
-            <li><a href="#softwareProjects" >Software</a></li>
-            <li><a href="#otherProjects">Other</a></li>
-            <li><a href="#mlPapers">ML Papers</a></li>
+            <li style="padding: 0 1em 0;"><a href="#software">Software</a></li>
+            <li style="padding: 0 1em 0;"><a href="#projects">Projects</a></li>
+            <li style="padding: 0 1em 0;"><a href="#mlPapers">ML Papers</a></li>
           </ul>
           <ul></ul>
         </nav>
@@ -57,23 +57,23 @@
           <ul>
           </ul>
           <ul>
-            <li><h1 style="color:#f2dfd7;">Willow Sanders</h1></li>
+            <li style="padding: 0;"><h2 style="color:#f2dfd7; margin: 0;">Willow Sanders</h2></li>
           </ul>
           <ul>
           </ul>
         </nav>
-        <div class="grid">
+        <div class="grid" style="grid-row-gap: 0;">
             <div style="text-align: center;">
-                <a href="mailto:WillowSanders1000@gmail.com">WillowSanders1000@gmail.com</a>
+                <small><a href="mailto:WillowSanders1000@gmail.com">WillowSanders1000@gmail.com</a></small>
             </div>
             <div style="text-align: center;">
-                <a href="https://github.com/willow-sanders" style="text-align: right;">GitHub: Willow-Sanders</a>
+                <small><a href="https://github.com/willow-sanders" style="text-align: right;">GitHub: Willow-Sanders</a></small>
             </div>
         </div>
-        <hr style="border-color:#FFEAEC; margin-bottom: 0;">
+        <hr style="border-color:#FFEAEC; margin: 0;">
     </div>
     <main class="container" id="content">
-        <h3 class="section_title" id="softwareProjects">Software Projects</h3>
+        <h3 class="section_title" id="software">Software</h3>
                 <article>
                     <header class="card_top">
                         <h4 class="card_text">Real-Time Reservoir and River Monitoring Platform</h4>
@@ -451,7 +451,7 @@ with Microsoft Office 365, to improve operational efficiency and accelerate deli
                         <a href="https://flask.palletsprojects.com/en/stable/" target="_blank">Flask</a>
                     </footer>
                 </article>
-            <h3 class="section_title" id="otherProjects">Other Projects</h3>
+            <h3 class="section_title" id="projects">Projects</h3>
                 <article>
                     <header class="card_top">
                         <h4 class="card_text">Led Company-Wide Process Improvement</h4>
